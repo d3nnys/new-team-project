@@ -29,10 +29,19 @@ body {
     background-color: #FFFFFF;
     color: #000000;
 }
-.header {
-
+.container {
+width: 1200px;
+padding: 0 15px;
+margin: 0 auto;
 }
-
+.header {
+border-bottom: 3px solid #2C7250;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .header-logo {
 color: #2C7250;
 
@@ -48,18 +57,21 @@ color: #2C7250;
 }
 
 .header-list {
-
+display: flex;
+gap: 40px;
 }
 
-.header-item {
-
-}
+/* .header-item:not(:last-child) {
+margin-right: 40px;
+} */
 
 .header-link {
 color: #2E363E;
     font-size: 18px;
     font-weight: 500;
     line-height: 1.5;
+    padding: 56px 0;
+    display: block;
 }
 .header-link:hover,.header-link:focus{
     color: #2C7250;
