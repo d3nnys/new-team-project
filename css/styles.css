@@ -1,0 +1,79 @@
+a {
+    text-decoration: none;
+}
+ul, ol {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h1,h2,h3,h4,h5,h6,p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img {
+    display: block;
+}
+address {
+    font-style: normal;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+body {
+    font-family: Inter,sans-serif;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+.header {
+
+}
+
+.header-logo {
+color: #2C7250;
+
+    font-family: Montserrat, sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+.header-nav {
+
+}
+
+.header-list {
+
+}
+
+.header-item {
+
+}
+
+.header-link {
+color: #2E363E;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.header-link:hover,.header-link:focus{
+    color: #2C7250;
+}
+
+.header-adress {
+
+}
+
+.header-tel-link {
+color: #2C7250;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.52;
+}
+
